@@ -33,7 +33,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    CCSGridChart *gridchart = [[CCSGridChart alloc] initWithFrame:CGRectMake(0, MARGIN_TOP, 360, 320)];
+    CCSGridChart *gridchart = [[CCSGridChart alloc] init];//[[CCSGridChart alloc] initWithFrame:CGRectMake(0, MARGIN_TOP, 360, 320)];
     
     gridchart.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     
@@ -63,6 +63,12 @@
     gridchart.latitudeTitles = TitleY;
     
     [self.view addSubview:gridchart];
+    @weakify(self);
+    [gridchart mas_makeConstraints:^(MASConstraintMaker *make) {
+        @strongify(self);
+        make.center.equalTo(self.view);
+        make.width.height.equalTo(@(300));
+    }];
 }
     
 - (void)didReceiveMemoryWarning {

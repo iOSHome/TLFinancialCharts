@@ -217,6 +217,7 @@
 		7E7B5CB91F95A22A00B3F242 /* CCSTitleValueColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5B3A1F95A18800B3F242 /* CCSTitleValueColor.m */; };
 		7E7B5CBA1F95A22A00B3F242 /* CCSTitleValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5B3C1F95A18800B3F242 /* CCSTitleValues.m */; };
 		7E7B5CBB1F95A22A00B3F242 /* CCSTitleValuesColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5B3E1F95A18800B3F242 /* CCSTitleValuesColor.m */; };
+		7E7B5CBD1F95DF2D00B3F242 /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7B5CBE1F95DF2D00B3F242 /* libMasonry.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -505,6 +506,7 @@
 		7E7B5BF21F95A19300B3F242 /* ta_WILLR.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ta_WILLR.c; sourceTree = "<group>"; };
 		7E7B5BF31F95A19300B3F242 /* ta_WMA.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ta_WMA.c; sourceTree = "<group>"; };
 		7E7B5CBC1F95A30800B3F242 /* TLFinancialCharts-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TLFinancialCharts-PrefixHeader.pch"; sourceTree = "<group>"; };
+		7E7B5CBE1F95DF2D00B3F242 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDF6D41109213732E1813A3 /* Pods-TLFinancialCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLFinancialCharts.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLFinancialCharts/Pods-TLFinancialCharts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -513,6 +515,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7B5CBD1F95DF2D00B3F242 /* libMasonry.a in Frameworks */,
 				06A74722977043222F11D8E8 /* libPods-TLFinancialCharts.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -908,6 +911,7 @@
 		F058C28E005B834B3507077F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E7B5CBE1F95DF2D00B3F242 /* libMasonry.a */,
 				74BC16B1F2AD773702763F25 /* libPods-TLFinancialCharts.a */,
 			);
 			name = Frameworks;

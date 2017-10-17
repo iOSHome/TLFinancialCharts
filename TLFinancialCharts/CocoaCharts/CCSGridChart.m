@@ -123,19 +123,19 @@
     [self drawBorder:rect];
 
     //绘制XY轴
-    [self drawXAxis:rect];
-    [self drawYAxis:rect];
-
-    //绘制纬线
-    [self drawLatitudeLines:rect];
-    //绘制X轴标题
-    [self drawXAxisTitles:rect];
-    //绘制经线
-    [self drawLongitudeLines:rect];
-    //绘制Y轴标题
-    [self drawYAxisTitles:rect];
-
-    [self drawCrossLines:rect];
+//    [self drawXAxis:rect];
+//    [self drawYAxis:rect];
+//
+//    //绘制纬线
+//    [self drawLatitudeLines:rect];
+//    //绘制X轴标题
+//    [self drawXAxisTitles:rect];
+//    //绘制经线
+//    [self drawLongitudeLines:rect];
+//    //绘制Y轴标题
+//    [self drawYAxisTitles:rect];
+//
+//    [self drawCrossLines:rect];
 }
 
 - (void)drawBorder:(CGRect)rect {
