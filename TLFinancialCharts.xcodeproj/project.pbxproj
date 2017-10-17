@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E7B5AC11F958F4900B3F242 /* FCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5AC01F958F4900B3F242 /* FCAppDelegate.m */; };
+		7E7B5AC41F958F4900B3F242 /* FCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5AC31F958F4900B3F242 /* FCRootViewController.m */; };
+		7E7B5AC91F958F4900B3F242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7B5AC81F958F4900B3F242 /* Assets.xcassets */; };
+		7E7B5ACC1F958F4A00B3F242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7B5ACA1F958F4A00B3F242 /* LaunchScreen.storyboard */; };
+		7E7B5ACF1F958F4A00B3F242 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5ACE1F958F4A00B3F242 /* main.m */; };
+		7E7B5AD91F958F4A00B3F242 /* TLFinancialChartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5AD81F958F4A00B3F242 /* TLFinancialChartsTests.m */; };
+		7E7B5AE41F958F4A00B3F242 /* TLFinancialChartsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5AE31F958F4A00B3F242 /* TLFinancialChartsUITests.m */; };
+		7E7B5AF31F95918F00B3F242 /* FCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5AF21F95918F00B3F242 /* FCDetailViewController.m */; };
+		7E7B5AF71F95947E00B3F242 /* FCGridChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5AF61F95947E00B3F242 /* FCGridChartViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E7B5AD51F958F4A00B3F242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7B5AB41F958F4900B3F242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7B5ABB1F958F4900B3F242;
+			remoteInfo = TLFinancialCharts;
+		};
+		7E7B5AE01F958F4A00B3F242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7B5AB41F958F4900B3F242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7B5ABB1F958F4900B3F242;
+			remoteInfo = TLFinancialCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E7B5ABC1F958F4900B3F242 /* TLFinancialCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLFinancialCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7B5ABF1F958F4900B3F242 /* FCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAppDelegate.h; sourceTree = "<group>"; };
+		7E7B5AC01F958F4900B3F242 /* FCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAppDelegate.m; sourceTree = "<group>"; };
+		7E7B5AC21F958F4900B3F242 /* FCRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCRootViewController.h; sourceTree = "<group>"; };
+		7E7B5AC31F958F4900B3F242 /* FCRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCRootViewController.m; sourceTree = "<group>"; };
+		7E7B5AC81F958F4900B3F242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E7B5ACB1F958F4A00B3F242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E7B5ACD1F958F4A00B3F242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7B5ACE1F958F4A00B3F242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E7B5AD41F958F4A00B3F242 /* TLFinancialChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLFinancialChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7B5AD81F958F4A00B3F242 /* TLFinancialChartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLFinancialChartsTests.m; sourceTree = "<group>"; };
+		7E7B5ADA1F958F4A00B3F242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7B5ADF1F958F4A00B3F242 /* TLFinancialChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLFinancialChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7B5AE31F958F4A00B3F242 /* TLFinancialChartsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLFinancialChartsUITests.m; sourceTree = "<group>"; };
+		7E7B5AE51F958F4A00B3F242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7B5AF11F95918F00B3F242 /* FCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCDetailViewController.h; sourceTree = "<group>"; };
+		7E7B5AF21F95918F00B3F242 /* FCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCDetailViewController.m; sourceTree = "<group>"; };
+		7E7B5AF51F95947E00B3F242 /* FCGridChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCGridChartViewController.h; sourceTree = "<group>"; };
+		7E7B5AF61F95947E00B3F242 /* FCGridChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCGridChartViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E7B5AB91F958F4900B3F242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B5AD11F958F4A00B3F242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B5ADC1F958F4A00B3F242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E7B5AB31F958F4900B3F242 = {
+			isa = PBXGroup;
+			children = (
+				7E7B5ABE1F958F4900B3F242 /* TLFinancialCharts */,
+				7E7B5AD71F958F4A00B3F242 /* TLFinancialChartsTests */,
+				7E7B5AE21F958F4A00B3F242 /* TLFinancialChartsUITests */,
+				7E7B5ABD1F958F4900B3F242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7B5ABD1F958F4900B3F242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B5ABC1F958F4900B3F242 /* TLFinancialCharts.app */,
+				7E7B5AD41F958F4A00B3F242 /* TLFinancialChartsTests.xctest */,
+				7E7B5ADF1F958F4A00B3F242 /* TLFinancialChartsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E7B5ABE1F958F4900B3F242 /* TLFinancialCharts */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B5AF41F95945200B3F242 /* FinancialCharts */,
+				7E7B5ABF1F958F4900B3F242 /* FCAppDelegate.h */,
+				7E7B5AC01F958F4900B3F242 /* FCAppDelegate.m */,
+				7E7B5AC21F958F4900B3F242 /* FCRootViewController.h */,
+				7E7B5AC31F958F4900B3F242 /* FCRootViewController.m */,
+				7E7B5AF11F95918F00B3F242 /* FCDetailViewController.h */,
+				7E7B5AF21F95918F00B3F242 /* FCDetailViewController.m */,
+				7E7B5AC81F958F4900B3F242 /* Assets.xcassets */,
+				7E7B5ACA1F958F4A00B3F242 /* LaunchScreen.storyboard */,
+				7E7B5ACD1F958F4A00B3F242 /* Info.plist */,
+				7E7B5ACE1F958F4A00B3F242 /* main.m */,
+			);
+			path = TLFinancialCharts;
+			sourceTree = "<group>";
+		};
+		7E7B5AD71F958F4A00B3F242 /* TLFinancialChartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B5AD81F958F4A00B3F242 /* TLFinancialChartsTests.m */,
+				7E7B5ADA1F958F4A00B3F242 /* Info.plist */,
+			);
+			path = TLFinancialChartsTests;
+			sourceTree = "<group>";
+		};
+		7E7B5AE21F958F4A00B3F242 /* TLFinancialChartsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B5AE31F958F4A00B3F242 /* TLFinancialChartsUITests.m */,
+				7E7B5AE51F958F4A00B3F242 /* Info.plist */,
+			);
+			path = TLFinancialChartsUITests;
+			sourceTree = "<group>";
+		};
+		7E7B5AF41F95945200B3F242 /* FinancialCharts */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B5AF51F95947E00B3F242 /* FCGridChartViewController.h */,
+				7E7B5AF61F95947E00B3F242 /* FCGridChartViewController.m */,
+			);
+			path = FinancialCharts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E7B5ABB1F958F4900B3F242 /* TLFinancialCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7B5AE81F958F4A00B3F242 /* Build configuration list for PBXNativeTarget "TLFinancialCharts" */;
+			buildPhases = (
+				7E7B5AB81F958F4900B3F242 /* Sources */,
+				7E7B5AB91F958F4900B3F242 /* Frameworks */,
+				7E7B5ABA1F958F4900B3F242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLFinancialCharts;
+			productName = TLFinancialCharts;
+			productReference = 7E7B5ABC1F958F4900B3F242 /* TLFinancialCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E7B5AD31F958F4A00B3F242 /* TLFinancialChartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7B5AEB1F958F4A00B3F242 /* Build configuration list for PBXNativeTarget "TLFinancialChartsTests" */;
+			buildPhases = (
+				7E7B5AD01F958F4A00B3F242 /* Sources */,
+				7E7B5AD11F958F4A00B3F242 /* Frameworks */,
+				7E7B5AD21F958F4A00B3F242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7B5AD61F958F4A00B3F242 /* PBXTargetDependency */,
+			);
+			name = TLFinancialChartsTests;
+			productName = TLFinancialChartsTests;
+			productReference = 7E7B5AD41F958F4A00B3F242 /* TLFinancialChartsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E7B5ADE1F958F4A00B3F242 /* TLFinancialChartsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7B5AEE1F958F4A00B3F242 /* Build configuration list for PBXNativeTarget "TLFinancialChartsUITests" */;
+			buildPhases = (
+				7E7B5ADB1F958F4A00B3F242 /* Sources */,
+				7E7B5ADC1F958F4A00B3F242 /* Frameworks */,
+				7E7B5ADD1F958F4A00B3F242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7B5AE11F958F4A00B3F242 /* PBXTargetDependency */,
+			);
+			name = TLFinancialChartsUITests;
+			productName = TLFinancialChartsUITests;
+			productReference = 7E7B5ADF1F958F4A00B3F242 /* TLFinancialChartsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7B5AB41F958F4900B3F242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lichuanjun;
+				TargetAttributes = {
+					7E7B5ABB1F958F4900B3F242 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					7E7B5AD31F958F4A00B3F242 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E7B5ABB1F958F4900B3F242;
+					};
+					7E7B5ADE1F958F4A00B3F242 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E7B5ABB1F958F4900B3F242;
+					};
+				};
+			};
+			buildConfigurationList = 7E7B5AB71F958F4900B3F242 /* Build configuration list for PBXProject "TLFinancialCharts" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E7B5AB31F958F4900B3F242;
+			productRefGroup = 7E7B5ABD1F958F4900B3F242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E7B5ABB1F958F4900B3F242 /* TLFinancialCharts */,
+				7E7B5AD31F958F4A00B3F242 /* TLFinancialChartsTests */,
+				7E7B5ADE1F958F4A00B3F242 /* TLFinancialChartsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E7B5ABA1F958F4900B3F242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7B5ACC1F958F4A00B3F242 /* LaunchScreen.storyboard in Resources */,
+				7E7B5AC91F958F4900B3F242 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B5AD21F958F4A00B3F242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B5ADD1F958F4A00B3F242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E7B5AB81F958F4900B3F242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7B5AC41F958F4900B3F242 /* FCRootViewController.m in Sources */,
+				7E7B5ACF1F958F4A00B3F242 /* main.m in Sources */,
+				7E7B5AF31F95918F00B3F242 /* FCDetailViewController.m in Sources */,
+				7E7B5AF71F95947E00B3F242 /* FCGridChartViewController.m in Sources */,
+				7E7B5AC11F958F4900B3F242 /* FCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B5AD01F958F4A00B3F242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7B5AD91F958F4A00B3F242 /* TLFinancialChartsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7B5ADB1F958F4A00B3F242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7B5AE41F958F4A00B3F242 /* TLFinancialChartsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7B5AD61F958F4A00B3F242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7B5ABB1F958F4900B3F242 /* TLFinancialCharts */;
+			targetProxy = 7E7B5AD51F958F4A00B3F242 /* PBXContainerItemProxy */;
+		};
+		7E7B5AE11F958F4A00B3F242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7B5ABB1F958F4900B3F242 /* TLFinancialCharts */;
+			targetProxy = 7E7B5AE01F958F4A00B3F242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E7B5ACA1F958F4A00B3F242 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7B5ACB1F958F4A00B3F242 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E7B5AE61F958F4A00B3F242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E7B5AE71F958F4A00B3F242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E7B5AE91F958F4A00B3F242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLFinancialCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.www.TLFinancialCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E7B5AEA1F958F4A00B3F242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLFinancialCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.www.TLFinancialCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E7B5AEC1F958F4A00B3F242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLFinancialChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.www.TLFinancialChartsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLFinancialCharts.app/TLFinancialCharts";
+			};
+			name = Debug;
+		};
+		7E7B5AED1F958F4A00B3F242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLFinancialChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.www.TLFinancialChartsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLFinancialCharts.app/TLFinancialCharts";
+			};
+			name = Release;
+		};
+		7E7B5AEF1F958F4A00B3F242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLFinancialChartsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.www.TLFinancialChartsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TLFinancialCharts;
+			};
+			name = Debug;
+		};
+		7E7B5AF01F958F4A00B3F242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLFinancialChartsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.www.TLFinancialChartsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TLFinancialCharts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E7B5AB71F958F4900B3F242 /* Build configuration list for PBXProject "TLFinancialCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7B5AE61F958F4A00B3F242 /* Debug */,
+				7E7B5AE71F958F4A00B3F242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7B5AE81F958F4A00B3F242 /* Build configuration list for PBXNativeTarget "TLFinancialCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7B5AE91F958F4A00B3F242 /* Debug */,
+				7E7B5AEA1F958F4A00B3F242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7B5AEB1F958F4A00B3F242 /* Build configuration list for PBXNativeTarget "TLFinancialChartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7B5AEC1F958F4A00B3F242 /* Debug */,
+				7E7B5AED1F958F4A00B3F242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7B5AEE1F958F4A00B3F242 /* Build configuration list for PBXNativeTarget "TLFinancialChartsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7B5AEF1F958F4A00B3F242 /* Debug */,
+				7E7B5AF01F958F4A00B3F242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E7B5AB41F958F4900B3F242 /* Project object */;
+}
