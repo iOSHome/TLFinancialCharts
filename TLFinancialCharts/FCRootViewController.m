@@ -23,7 +23,8 @@
     
     self.titles = @[].mutableCopy;
     self.classNames = @[].mutableCopy;
-    [self addCell:@"GridChart" class:@"FCGridChartViewController"];
+    [self addCell:@"Grid Chart" class:@"FCGridChartViewController"];
+    [self addCell:@"Line Chart" class:@"FCLineChartViewController"];
     [self.tableView reloadData];
 }
 
