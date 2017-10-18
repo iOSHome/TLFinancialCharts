@@ -26,6 +26,8 @@
     [self addCell:@"Grid Chart" class:@"FCGridChartViewController"];
     [self addCell:@"Line Chart" class:@"FCLineChartViewController"];
     [self addCell:@"Stick Chart" class:@"FCStickChartViewController"];
+    [self addCell:@"MAStick Chart" class:@"FCMAStickChartViewController"];
+    
     [self.tableView reloadData];
 }
 
