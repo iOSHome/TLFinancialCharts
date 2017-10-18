@@ -219,6 +219,7 @@
 		7E7B5CBB1F95A22A00B3F242 /* CCSTitleValuesColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5B3E1F95A18800B3F242 /* CCSTitleValuesColor.m */; };
 		7E7B5CBD1F95DF2D00B3F242 /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7B5CBE1F95DF2D00B3F242 /* libMasonry.a */; };
 		7E7B5CC11F96E49300B3F242 /* FCLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5CC01F96E49300B3F242 /* FCLineChartViewController.m */; };
+		7E7B5CC41F96F3E000B3F242 /* FCStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5CC31F96F3E000B3F242 /* FCStickChartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -510,6 +511,8 @@
 		7E7B5CBE1F95DF2D00B3F242 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7B5CBF1F96E49300B3F242 /* FCLineChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCLineChartViewController.h; sourceTree = "<group>"; };
 		7E7B5CC01F96E49300B3F242 /* FCLineChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCLineChartViewController.m; sourceTree = "<group>"; };
+		7E7B5CC21F96F3E000B3F242 /* FCStickChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCStickChartViewController.h; sourceTree = "<group>"; };
+		7E7B5CC31F96F3E000B3F242 /* FCStickChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCStickChartViewController.m; sourceTree = "<group>"; };
 		BEDF6D41109213732E1813A3 /* Pods-TLFinancialCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLFinancialCharts.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLFinancialCharts/Pods-TLFinancialCharts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -618,6 +621,8 @@
 				7E7B5AF61F95947E00B3F242 /* FCGridChartViewController.m */,
 				7E7B5CBF1F96E49300B3F242 /* FCLineChartViewController.h */,
 				7E7B5CC01F96E49300B3F242 /* FCLineChartViewController.m */,
+				7E7B5CC21F96F3E000B3F242 /* FCStickChartViewController.h */,
+				7E7B5CC31F96F3E000B3F242 /* FCStickChartViewController.m */,
 			);
 			path = FinancialCharts;
 			sourceTree = "<group>";
@@ -1201,6 +1206,7 @@
 				7E7B5C641F95A1F200B3F242 /* ta_MAVP.c in Sources */,
 				7E7B5BFD1F95A1F100B3F242 /* ta_ADX.c in Sources */,
 				7E7B5CA41F95A22A00B3F242 /* CCSGridChart.m in Sources */,
+				7E7B5CC41F96F3E000B3F242 /* FCStickChartViewController.m in Sources */,
 				7E7B5CA01F95A22A00B3F242 /* CCSCandleStickChartData.m in Sources */,
 				7E7B5C631F95A1F200B3F242 /* ta_MAMA.c in Sources */,
 				7E7B5AC11F958F4900B3F242 /* FCAppDelegate.m in Sources */,

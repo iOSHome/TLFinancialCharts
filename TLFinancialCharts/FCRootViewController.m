@@ -25,6 +25,7 @@
     self.classNames = @[].mutableCopy;
     [self addCell:@"Grid Chart" class:@"FCGridChartViewController"];
     [self addCell:@"Line Chart" class:@"FCLineChartViewController"];
+    [self addCell:@"Stick Chart" class:@"FCStickChartViewController"];
     [self.tableView reloadData];
 }
 
