@@ -38,6 +38,7 @@
     gridchart.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     
     gridchart.backgroundColor = [UIColor clearColor];
+//    gridchart.borderColor = [UIColor clearColor];
     
     NSMutableArray *TitleX = [[NSMutableArray alloc] init];
     
@@ -67,7 +68,7 @@
     [gridchart mas_makeConstraints:^(MASConstraintMaker *make) {
         @strongify(self);
         make.center.equalTo(self.view);
-        make.width.height.equalTo(@(300));
+        make.width.height.equalTo(@(self.view.frame.size.width-2));
     }];
 }
     
