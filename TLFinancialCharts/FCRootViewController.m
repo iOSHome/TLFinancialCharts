@@ -28,6 +28,9 @@
     [self addCell:@"Stick Chart" class:@"FCStickChartViewController"];
     [self addCell:@"MAStick Chart" class:@"FCMAStickChartViewController"];
     [self addCell:@"Candle Stick Chart" class:@"FCCandleStickViewController"];
+    [self addCell:@"MACandle Stick Chart" class:@"FCMACandleStickChartViewController"];
+    [self addCell:@"Pie Chart" class:@"FCPieChartViewController"];
+    [self addCell:@"Pizza Chart" class:@"FCPizzaChartViewController"];
     
     [self.tableView reloadData];
 }

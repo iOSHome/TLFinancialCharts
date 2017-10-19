@@ -222,6 +222,9 @@
 		7E7B5CC41F96F3E000B3F242 /* FCStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5CC31F96F3E000B3F242 /* FCStickChartViewController.m */; };
 		7E7B5CC71F974F9D00B3F242 /* FCMAStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5CC61F974F9C00B3F242 /* FCMAStickChartViewController.m */; };
 		7ED630F31F983B0F0029CDB5 /* FCCandleStickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED630F21F983B0F0029CDB5 /* FCCandleStickViewController.m */; };
+		7EDF54011F9875EB00C854F7 /* FCMACandleStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF54001F9875EB00C854F7 /* FCMACandleStickChartViewController.m */; };
+		7EDF54041F98760100C854F7 /* FCPieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF54031F98760100C854F7 /* FCPieChartViewController.m */; };
+		7EDF54071F98761400C854F7 /* FCPizzaChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF54061F98761400C854F7 /* FCPizzaChartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -519,6 +522,12 @@
 		7E7B5CC61F974F9C00B3F242 /* FCMAStickChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMAStickChartViewController.m; sourceTree = "<group>"; };
 		7ED630F11F983B0F0029CDB5 /* FCCandleStickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCCandleStickViewController.h; sourceTree = "<group>"; };
 		7ED630F21F983B0F0029CDB5 /* FCCandleStickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCCandleStickViewController.m; sourceTree = "<group>"; };
+		7EDF53FF1F9875EB00C854F7 /* FCMACandleStickChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMACandleStickChartViewController.h; sourceTree = "<group>"; };
+		7EDF54001F9875EB00C854F7 /* FCMACandleStickChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMACandleStickChartViewController.m; sourceTree = "<group>"; };
+		7EDF54021F98760100C854F7 /* FCPieChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCPieChartViewController.h; sourceTree = "<group>"; };
+		7EDF54031F98760100C854F7 /* FCPieChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCPieChartViewController.m; sourceTree = "<group>"; };
+		7EDF54051F98761400C854F7 /* FCPizzaChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCPizzaChartViewController.h; sourceTree = "<group>"; };
+		7EDF54061F98761400C854F7 /* FCPizzaChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCPizzaChartViewController.m; sourceTree = "<group>"; };
 		BEDF6D41109213732E1813A3 /* Pods-TLFinancialCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLFinancialCharts.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLFinancialCharts/Pods-TLFinancialCharts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -633,6 +642,12 @@
 				7E7B5CC61F974F9C00B3F242 /* FCMAStickChartViewController.m */,
 				7ED630F11F983B0F0029CDB5 /* FCCandleStickViewController.h */,
 				7ED630F21F983B0F0029CDB5 /* FCCandleStickViewController.m */,
+				7EDF53FF1F9875EB00C854F7 /* FCMACandleStickChartViewController.h */,
+				7EDF54001F9875EB00C854F7 /* FCMACandleStickChartViewController.m */,
+				7EDF54021F98760100C854F7 /* FCPieChartViewController.h */,
+				7EDF54031F98760100C854F7 /* FCPieChartViewController.m */,
+				7EDF54051F98761400C854F7 /* FCPizzaChartViewController.h */,
+				7EDF54061F98761400C854F7 /* FCPizzaChartViewController.m */,
 			);
 			path = FinancialCharts;
 			sourceTree = "<group>";
@@ -1232,6 +1247,7 @@
 				7E7B5C141F95A1F100B3F242 /* ta_CDLBREAKAWAY.c in Sources */,
 				7E7B5C921F95A1F200B3F242 /* ta_TSF.c in Sources */,
 				7E7B5C1B1F95A1F100B3F242 /* ta_CDLDRAGONFLYDOJI.c in Sources */,
+				7EDF54071F98761400C854F7 /* FCPizzaChartViewController.m in Sources */,
 				7E7B5C881F95A1F200B3F242 /* ta_STOCHRSI.c in Sources */,
 				7E7B5C671F95A1F200B3F242 /* ta_MEDPRICE.c in Sources */,
 				7E7B5C251F95A1F100B3F242 /* ta_CDLHIGHWAVE.c in Sources */,
@@ -1265,6 +1281,7 @@
 				7E7B5C321F95A1F200B3F242 /* ta_CDLMATCHINGLOW.c in Sources */,
 				7E7B5C9B1F95A22A00B3F242 /* CCSBandAreaChart.m in Sources */,
 				7E7B5C5F1F95A1F200B3F242 /* ta_MA.c in Sources */,
+				7EDF54041F98760100C854F7 /* FCPieChartViewController.m in Sources */,
 				7E7B5C2C1F95A1F100B3F242 /* ta_CDLKICKING.c in Sources */,
 				7E7B5C691F95A1F200B3F242 /* ta_MIDPOINT.c in Sources */,
 				7E7B5C651F95A1F200B3F242 /* ta_MAX.c in Sources */,
@@ -1313,6 +1330,7 @@
 				7E7B5C5D1F95A1F200B3F242 /* ta_LN.c in Sources */,
 				7E7B5C131F95A1F100B3F242 /* ta_CDLBELTHOLD.c in Sources */,
 				7E7B5CA21F95A22A00B3F242 /* CCSColoredStickChartData.m in Sources */,
+				7EDF54011F9875EB00C854F7 /* FCMACandleStickChartViewController.m in Sources */,
 				7E7B5C971F95A1F200B3F242 /* ta_WCLPRICE.c in Sources */,
 				7E7B5C911F95A1F200B3F242 /* ta_TRIX.c in Sources */,
 				7E7B5C561F95A1F200B3F242 /* ta_HT_TRENDLINE.c in Sources */,
