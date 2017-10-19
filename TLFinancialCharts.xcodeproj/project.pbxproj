@@ -221,6 +221,7 @@
 		7E7B5CC11F96E49300B3F242 /* FCLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5CC01F96E49300B3F242 /* FCLineChartViewController.m */; };
 		7E7B5CC41F96F3E000B3F242 /* FCStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5CC31F96F3E000B3F242 /* FCStickChartViewController.m */; };
 		7E7B5CC71F974F9D00B3F242 /* FCMAStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5CC61F974F9C00B3F242 /* FCMAStickChartViewController.m */; };
+		7ED630F31F983B0F0029CDB5 /* FCCandleStickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED630F21F983B0F0029CDB5 /* FCCandleStickViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -516,6 +517,8 @@
 		7E7B5CC31F96F3E000B3F242 /* FCStickChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCStickChartViewController.m; sourceTree = "<group>"; };
 		7E7B5CC51F974F9C00B3F242 /* FCMAStickChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMAStickChartViewController.h; sourceTree = "<group>"; };
 		7E7B5CC61F974F9C00B3F242 /* FCMAStickChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMAStickChartViewController.m; sourceTree = "<group>"; };
+		7ED630F11F983B0F0029CDB5 /* FCCandleStickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCCandleStickViewController.h; sourceTree = "<group>"; };
+		7ED630F21F983B0F0029CDB5 /* FCCandleStickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCCandleStickViewController.m; sourceTree = "<group>"; };
 		BEDF6D41109213732E1813A3 /* Pods-TLFinancialCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLFinancialCharts.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLFinancialCharts/Pods-TLFinancialCharts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -628,6 +631,8 @@
 				7E7B5CC31F96F3E000B3F242 /* FCStickChartViewController.m */,
 				7E7B5CC51F974F9C00B3F242 /* FCMAStickChartViewController.h */,
 				7E7B5CC61F974F9C00B3F242 /* FCMAStickChartViewController.m */,
+				7ED630F11F983B0F0029CDB5 /* FCCandleStickViewController.h */,
+				7ED630F21F983B0F0029CDB5 /* FCCandleStickViewController.m */,
 			);
 			path = FinancialCharts;
 			sourceTree = "<group>";
@@ -1297,6 +1302,7 @@
 				7E7B5C411F95A1F200B3F242 /* ta_CDLTASUKIGAP.c in Sources */,
 				7E7B5C341F95A1F200B3F242 /* ta_CDLMORNINGDOJISTAR.c in Sources */,
 				7E7B5C9C1F95A22A00B3F242 /* CCSBaseChartView.m in Sources */,
+				7ED630F31F983B0F0029CDB5 /* FCCandleStickViewController.m in Sources */,
 				7E7B5C0B1F95A1F100B3F242 /* ta_CDL3BLACKCROWS.c in Sources */,
 				7E7B5C111F95A1F100B3F242 /* ta_CDLABANDONEDBABY.c in Sources */,
 				7E7B5BFE1F95A1F100B3F242 /* ta_ADXR.c in Sources */,
