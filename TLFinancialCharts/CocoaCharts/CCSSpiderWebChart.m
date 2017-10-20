@@ -182,7 +182,8 @@
         textStyle.alignment=NSTextAlignmentCenter;
         textStyle.lineBreakMode = NSLineBreakByWordWrapping;
         //绘制字体
-        [title drawInRect:textRect withAttributes:@{NSFontAttributeName:textFont,NSParagraphStyleAttributeName:textStyle}];
+        [title drawInRect:textRect
+           withAttributes:@{NSFontAttributeName:textFont,NSParagraphStyleAttributeName:textStyle}];
         
         CGContextSetFillColorWithColor(context, self.spiderWebFillColor.CGColor);
     }

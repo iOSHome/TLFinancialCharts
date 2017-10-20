@@ -31,6 +31,10 @@
     [self addCell:@"MACandle Stick Chart" class:@"FCMACandleStickChartViewController"];
     [self addCell:@"Pie Chart" class:@"FCPieChartViewController"];
     [self addCell:@"Pizza Chart" class:@"FCPizzaChartViewController"];
+    [self addCell:@"Spider Web Chart" class:@"FCSpiderWebChartViewController"];
+    [self addCell:@"Minus Stick Chart" class:@"FCMinusStickChartViewController"];
+    [self addCell:@"MACD Chart" class:@"FCMACDChartViewController"];
+    [self addCell:@"Area Chart" class:@"FCAreaChartViewController"];
     
     [self.tableView reloadData];
 }

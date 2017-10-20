@@ -43,7 +43,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
     
-    CCSPizzaChart *pizzachart = [[CCSPizzaChart alloc] initWithFrame:CGRectMake(0, 80, 320, 320)];
+    CCSPizzaChart *pizzachart = [[CCSPizzaChart alloc] init];
     
     pizzachart.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     
@@ -67,6 +67,12 @@
     pizzachart.offsetLength = 8;
     
     [self.view addSubview:pizzachart];
+    @weakify(self);
+    [pizzachart mas_makeConstraints:^(MASConstraintMaker *make) {
+        @strongify(self);
+        make.center.equalTo(self.view);
+        make.width.height.equalTo(@(self.view.frame.size.width-2));
+    }];
     
     self.pizzaChart = pizzachart;
     [self performSelector:@selector(randomChangeIndex) withObject:nil afterDelay:2.0f];
