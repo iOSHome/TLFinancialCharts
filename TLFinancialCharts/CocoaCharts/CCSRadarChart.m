@@ -11,6 +11,14 @@
 
 @implementation CCSRadarChart
 
+- (id)init {
+    self = [super init];
+    if (self) {
+        // Initialization code
+    }
+    return self;
+}
+
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
@@ -113,7 +121,7 @@
 //                 withFont:font
 //            lineBreakMode:NSLineBreakByWordWrapping
 //                alignment:NSTextAlignmentCenter];
-        
+
         CGRect textRect= CGRectMake(realx, realy, 44, 11);
         UIFont *textFont= font; //设置字体
         NSMutableParagraphStyle *textStyle=[[NSMutableParagraphStyle alloc]init];//段落样式
@@ -121,11 +129,13 @@
         textStyle.lineBreakMode = NSLineBreakByWordWrapping;
         //绘制字体
         [title drawInRect:textRect withAttributes:@{NSFontAttributeName:textFont,NSParagraphStyleAttributeName:textStyle}];
-        
+
         CGContextSetFillColorWithColor(context, self.spiderWebFillColor.CGColor);
     }
-
-    CGContextAddEllipseInRect(context, CGRectMake(self.position.x - self.longitudeLength, self.position.y - self.longitudeLength, 2 * self.longitudeLength, 2 * self.longitudeLength));
+    // 修改半径
+    self.longitudeLength = self.longitudeLength * 0.92;
+    
+    CGContextAddEllipseInRect(context, CGRectMake(self.position.x - self.longitudeLength, self.position.y - self.longitudeLength, 2.0 * self.longitudeLength, 2.0 * self.longitudeLength));
     CGContextFillPath(context);
 
 
