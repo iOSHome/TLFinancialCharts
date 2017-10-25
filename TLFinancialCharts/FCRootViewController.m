@@ -23,18 +23,29 @@
     
     self.titles = @[].mutableCopy;
     self.classNames = @[].mutableCopy;
-    [self addCell:@"Grid Chart" class:@"FCGridChartViewController"];
-    [self addCell:@"Line Chart" class:@"FCLineChartViewController"];
-    [self addCell:@"Stick Chart" class:@"FCStickChartViewController"];
-    [self addCell:@"MAStick Chart" class:@"FCMAStickChartViewController"];
-    [self addCell:@"Candle Stick Chart" class:@"FCCandleStickViewController"];
-    [self addCell:@"MACandle Stick Chart" class:@"FCMACandleStickChartViewController"];
-    [self addCell:@"Pie Chart" class:@"FCPieChartViewController"];
-    [self addCell:@"Pizza Chart" class:@"FCPizzaChartViewController"];
-    [self addCell:@"Spider Web Chart" class:@"FCSpiderWebChartViewController"];
-    [self addCell:@"Minus Stick Chart" class:@"FCMinusStickChartViewController"];
-    [self addCell:@"MACD Chart" class:@"FCMACDChartViewController"];
-    [self addCell:@"Area Chart" class:@"FCAreaChartViewController"];
+
+    [self addCell:@"Grid Chart" class:@"FCGridChartViewController"];//网格图
+    [self addCell:@"Line Chart" class:@"FCLineChartViewController"];//线形图(包含单线图和多线图)
+    [self addCell:@"Stick Chart" class:@"FCStickChartViewController"];//柱形图(包含分段面积图)
+    [self addCell:@"MAStick Chart" class:@"FCMAStickChartViewController"];//均线柱形图
+    [self addCell:@"Candle Stick Chart" class:@"FCCandleStickViewController"];//K线或蜡烛线图
+    [self addCell:@"MACandle Stick Chart" class:@"FCMACandleStickChartViewController"];//均线蜡烛台表
+    [self addCell:@"Pie Chart" class:@"FCPieChartViewController"];//基本饼图
+    [self addCell:@"Pizza Chart" class:@"FCPizzaChartViewController"];//分割饼图
+    [self addCell:@"Spider Web Chart" class:@"FCSpiderWebChartViewController"];//蛛网图
+    [self addCell:@"Minus Stick Chart" class:@"FCMinusStickChartViewController"];//分时图
+    [self addCell:@"MACD Chart" class:@"FCMACDChartViewController"];//平均线指标图
+    [self addCell:@"Area Chart" class:@"FCAreaChartViewController"];//面积图(包含单线面积图和多线面积图)
+    [self addCell:@"Stacked Area Chart" class:@"FCStackedAreaChartViewController"];//堆叠面积图
+    [self addCell:@"Band Area Chart" class:@"FCBandAreaChartViewController"];//带面积图
+    [self addCell:@"Radar Chart" class:@"FCRadarChartViewController"];//雷达图
+    [self addCell:@"Slip Stick Chart" class:@"FCSlipStickChartController"];//滑棒图
+    [self addCell:@"Colored Stick Chart" class:@"FCColoredStickChartViewController"];//彩色滑棒图
+    [self addCell:@"Slip Candle Stick Chart" class:@"FCSlipCandleStickChartViewController"];//滑蜡烛台表
+    [self addCell:@"MA Slip Candle Stick Chart" class:@"FCMASlipCandleStickChartViewController"];//均线滑蜡烛台表
+    [self addCell:@"BOLL MA Slip Candle Stick Chart" class:@"FCBOLLMASlipCandleStickChartViewController"];//BOLL均线滑蜡烛台表
+    [self addCell:@"Slip Line Chart" class:@"FCSlipLineChartViewController"];//滑线图表
+    [self addCell:@"Donut Chart" class:@"FCDonutChartViewController"];//甜甜圈图
     
     [self.tableView reloadData];
 }

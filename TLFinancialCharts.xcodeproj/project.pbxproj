@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		06A74722977043222F11D8E8 /* libPods-TLFinancialCharts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BC16B1F2AD773702763F25 /* libPods-TLFinancialCharts.a */; };
 		7E19CD721F99CD9400ABDDF9 /* FCAreaChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19CD711F99CD9400ABDDF9 /* FCAreaChartViewController.m */; };
+		7E19CD751F99CF6900ABDDF9 /* FCStackedAreaChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19CD741F99CF6900ABDDF9 /* FCStackedAreaChartViewController.m */; };
+		7E19CD781F99D27400ABDDF9 /* FCBandAreaChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19CD771F99D27400ABDDF9 /* FCBandAreaChartViewController.m */; };
+		7E19CD7B1F99D50300ABDDF9 /* FCRadarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19CD7A1F99D50300ABDDF9 /* FCRadarChartViewController.m */; };
+		7E19CD7E1F99D51C00ABDDF9 /* FCSlipStickChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19CD7D1F99D51C00ABDDF9 /* FCSlipStickChartController.m */; };
+		7E19CD811F99D54C00ABDDF9 /* FCColoredStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19CD801F99D54C00ABDDF9 /* FCColoredStickChartViewController.m */; };
+		7E19CD841F99D55B00ABDDF9 /* FCSlipCandleStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19CD831F99D55B00ABDDF9 /* FCSlipCandleStickChartViewController.m */; };
+		7E19CD871F99D64800ABDDF9 /* FCMASlipCandleStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19CD861F99D64800ABDDF9 /* FCMASlipCandleStickChartViewController.m */; };
+		7E19CD8A1F99D65C00ABDDF9 /* FCBOLLMASlipCandleStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19CD891F99D65C00ABDDF9 /* FCBOLLMASlipCandleStickChartViewController.m */; };
+		7E19CD8D1F99D66C00ABDDF9 /* FCSlipLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19CD8C1F99D66C00ABDDF9 /* FCSlipLineChartViewController.m */; };
+		7E19CD901F99D67E00ABDDF9 /* FCDonutChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19CD8F1F99D67E00ABDDF9 /* FCDonutChartViewController.m */; };
 		7E55592C1F998C360044EE27 /* FCSpiderWebChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E55592B1F998C360044EE27 /* FCSpiderWebChartViewController.m */; };
 		7E55592F1F998C480044EE27 /* FCMinusStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E55592E1F998C480044EE27 /* FCMinusStickChartViewController.m */; };
 		7E5559321F998C590044EE27 /* FCMACDChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5559311F998C590044EE27 /* FCMACDChartViewController.m */; };
@@ -253,6 +263,26 @@
 		74BC16B1F2AD773702763F25 /* libPods-TLFinancialCharts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLFinancialCharts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E19CD701F99CD9400ABDDF9 /* FCAreaChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAreaChartViewController.h; sourceTree = "<group>"; };
 		7E19CD711F99CD9400ABDDF9 /* FCAreaChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAreaChartViewController.m; sourceTree = "<group>"; };
+		7E19CD731F99CF6900ABDDF9 /* FCStackedAreaChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCStackedAreaChartViewController.h; sourceTree = "<group>"; };
+		7E19CD741F99CF6900ABDDF9 /* FCStackedAreaChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCStackedAreaChartViewController.m; sourceTree = "<group>"; };
+		7E19CD761F99D27400ABDDF9 /* FCBandAreaChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBandAreaChartViewController.h; sourceTree = "<group>"; };
+		7E19CD771F99D27400ABDDF9 /* FCBandAreaChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBandAreaChartViewController.m; sourceTree = "<group>"; };
+		7E19CD791F99D50300ABDDF9 /* FCRadarChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCRadarChartViewController.h; sourceTree = "<group>"; };
+		7E19CD7A1F99D50300ABDDF9 /* FCRadarChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCRadarChartViewController.m; sourceTree = "<group>"; };
+		7E19CD7C1F99D51C00ABDDF9 /* FCSlipStickChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSlipStickChartController.h; sourceTree = "<group>"; };
+		7E19CD7D1F99D51C00ABDDF9 /* FCSlipStickChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSlipStickChartController.m; sourceTree = "<group>"; };
+		7E19CD7F1F99D54C00ABDDF9 /* FCColoredStickChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCColoredStickChartViewController.h; sourceTree = "<group>"; };
+		7E19CD801F99D54C00ABDDF9 /* FCColoredStickChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCColoredStickChartViewController.m; sourceTree = "<group>"; };
+		7E19CD821F99D55B00ABDDF9 /* FCSlipCandleStickChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSlipCandleStickChartViewController.h; sourceTree = "<group>"; };
+		7E19CD831F99D55B00ABDDF9 /* FCSlipCandleStickChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSlipCandleStickChartViewController.m; sourceTree = "<group>"; };
+		7E19CD851F99D64800ABDDF9 /* FCMASlipCandleStickChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMASlipCandleStickChartViewController.h; sourceTree = "<group>"; };
+		7E19CD861F99D64800ABDDF9 /* FCMASlipCandleStickChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMASlipCandleStickChartViewController.m; sourceTree = "<group>"; };
+		7E19CD881F99D65C00ABDDF9 /* FCBOLLMASlipCandleStickChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBOLLMASlipCandleStickChartViewController.h; sourceTree = "<group>"; };
+		7E19CD891F99D65C00ABDDF9 /* FCBOLLMASlipCandleStickChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBOLLMASlipCandleStickChartViewController.m; sourceTree = "<group>"; };
+		7E19CD8B1F99D66C00ABDDF9 /* FCSlipLineChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSlipLineChartViewController.h; sourceTree = "<group>"; };
+		7E19CD8C1F99D66C00ABDDF9 /* FCSlipLineChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSlipLineChartViewController.m; sourceTree = "<group>"; };
+		7E19CD8E1F99D67E00ABDDF9 /* FCDonutChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCDonutChartViewController.h; sourceTree = "<group>"; };
+		7E19CD8F1F99D67E00ABDDF9 /* FCDonutChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCDonutChartViewController.m; sourceTree = "<group>"; };
 		7E55592A1F998C360044EE27 /* FCSpiderWebChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSpiderWebChartViewController.h; sourceTree = "<group>"; };
 		7E55592B1F998C360044EE27 /* FCSpiderWebChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSpiderWebChartViewController.m; sourceTree = "<group>"; };
 		7E55592D1F998C480044EE27 /* FCMinusStickChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMinusStickChartViewController.h; sourceTree = "<group>"; };
@@ -668,6 +698,26 @@
 				7E5559311F998C590044EE27 /* FCMACDChartViewController.m */,
 				7E19CD701F99CD9400ABDDF9 /* FCAreaChartViewController.h */,
 				7E19CD711F99CD9400ABDDF9 /* FCAreaChartViewController.m */,
+				7E19CD731F99CF6900ABDDF9 /* FCStackedAreaChartViewController.h */,
+				7E19CD741F99CF6900ABDDF9 /* FCStackedAreaChartViewController.m */,
+				7E19CD761F99D27400ABDDF9 /* FCBandAreaChartViewController.h */,
+				7E19CD771F99D27400ABDDF9 /* FCBandAreaChartViewController.m */,
+				7E19CD791F99D50300ABDDF9 /* FCRadarChartViewController.h */,
+				7E19CD7A1F99D50300ABDDF9 /* FCRadarChartViewController.m */,
+				7E19CD7C1F99D51C00ABDDF9 /* FCSlipStickChartController.h */,
+				7E19CD7D1F99D51C00ABDDF9 /* FCSlipStickChartController.m */,
+				7E19CD7F1F99D54C00ABDDF9 /* FCColoredStickChartViewController.h */,
+				7E19CD801F99D54C00ABDDF9 /* FCColoredStickChartViewController.m */,
+				7E19CD821F99D55B00ABDDF9 /* FCSlipCandleStickChartViewController.h */,
+				7E19CD831F99D55B00ABDDF9 /* FCSlipCandleStickChartViewController.m */,
+				7E19CD851F99D64800ABDDF9 /* FCMASlipCandleStickChartViewController.h */,
+				7E19CD861F99D64800ABDDF9 /* FCMASlipCandleStickChartViewController.m */,
+				7E19CD881F99D65C00ABDDF9 /* FCBOLLMASlipCandleStickChartViewController.h */,
+				7E19CD891F99D65C00ABDDF9 /* FCBOLLMASlipCandleStickChartViewController.m */,
+				7E19CD8B1F99D66C00ABDDF9 /* FCSlipLineChartViewController.h */,
+				7E19CD8C1F99D66C00ABDDF9 /* FCSlipLineChartViewController.m */,
+				7E19CD8E1F99D67E00ABDDF9 /* FCDonutChartViewController.h */,
+				7E19CD8F1F99D67E00ABDDF9 /* FCDonutChartViewController.m */,
 			);
 			path = FinancialCharts;
 			sourceTree = "<group>";
@@ -1206,6 +1256,7 @@
 				7E7B5C6F1F95A1F200B3F242 /* ta_MINUS_DI.c in Sources */,
 				7E7B5AF31F95918F00B3F242 /* FCDetailViewController.m in Sources */,
 				7E7B5C391F95A1F200B3F242 /* ta_CDLRISEFALL3METHODS.c in Sources */,
+				7E19CD871F99D64800ABDDF9 /* FCMASlipCandleStickChartViewController.m in Sources */,
 				7E7B5BFB1F95A1F100B3F242 /* ta_ADD.c in Sources */,
 				7E7B5C5C1F95A1F200B3F242 /* ta_LINEARREG_SLOPE.c in Sources */,
 				7E7B5C4B1F95A1F200B3F242 /* ta_COSH.c in Sources */,
@@ -1214,6 +1265,7 @@
 				7E7B5C2B1F95A1F100B3F242 /* ta_CDLINVERTEDHAMMER.c in Sources */,
 				7E7B5C281F95A1F100B3F242 /* ta_CDLHOMINGPIGEON.c in Sources */,
 				7E7B5C951F95A1F200B3F242 /* ta_utility.c in Sources */,
+				7E19CD8A1F99D65C00ABDDF9 /* FCBOLLMASlipCandleStickChartViewController.m in Sources */,
 				7E7B5C4D1F95A1F200B3F242 /* ta_DIV.c in Sources */,
 				7E7B5C311F95A1F200B3F242 /* ta_CDLMARUBOZU.c in Sources */,
 				7E7B5C4A1F95A1F200B3F242 /* ta_COS.c in Sources */,
@@ -1227,6 +1279,7 @@
 				7E7B5C0C1F95A1F100B3F242 /* ta_CDL3INSIDE.c in Sources */,
 				7E7B5BFC1F95A1F100B3F242 /* ta_ADOSC.c in Sources */,
 				7E7B5CA81F95A22A00B3F242 /* CCSMACDChart.m in Sources */,
+				7E19CD811F99D54C00ABDDF9 /* FCColoredStickChartViewController.m in Sources */,
 				7E7B5C191F95A1F100B3F242 /* ta_CDLDOJI.c in Sources */,
 				7E7B5CC71F974F9D00B3F242 /* FCMAStickChartViewController.m in Sources */,
 				7E7B5C981F95A1F200B3F242 /* ta_WILLR.c in Sources */,
@@ -1248,12 +1301,14 @@
 				7E7B5C1F1F95A1F100B3F242 /* ta_CDLGAPSIDESIDEWHITE.c in Sources */,
 				7E7B5C8B1F95A1F200B3F242 /* ta_T3.c in Sources */,
 				7E7B5C2D1F95A1F100B3F242 /* ta_CDLKICKINGBYLENGTH.c in Sources */,
+				7E19CD901F99D67E00ABDDF9 /* FCDonutChartViewController.m in Sources */,
 				7E7B5C471F95A1F200B3F242 /* ta_CEIL.c in Sources */,
 				7E7B5C5B1F95A1F200B3F242 /* ta_LINEARREG_INTERCEPT.c in Sources */,
 				7E7B5C641F95A1F200B3F242 /* ta_MAVP.c in Sources */,
 				7E7B5BFD1F95A1F100B3F242 /* ta_ADX.c in Sources */,
 				7E7B5CA41F95A22A00B3F242 /* CCSGridChart.m in Sources */,
 				7E7B5CC41F96F3E000B3F242 /* FCStickChartViewController.m in Sources */,
+				7E19CD7E1F99D51C00ABDDF9 /* FCSlipStickChartController.m in Sources */,
 				7E7B5CA01F95A22A00B3F242 /* CCSCandleStickChartData.m in Sources */,
 				7E7B5C631F95A1F200B3F242 /* ta_MAMA.c in Sources */,
 				7E7B5AC11F958F4900B3F242 /* FCAppDelegate.m in Sources */,
@@ -1283,6 +1338,7 @@
 				7E7B5C7A1F95A1F200B3F242 /* ta_ROC.c in Sources */,
 				7E7B5C861F95A1F200B3F242 /* ta_STOCH.c in Sources */,
 				7E7B5C6E1F95A1F200B3F242 /* ta_MINMAXINDEX.c in Sources */,
+				7E19CD7B1F99D50300ABDDF9 /* FCRadarChartViewController.m in Sources */,
 				7E7B5C941F95A1F200B3F242 /* ta_ULTOSC.c in Sources */,
 				7E7B5CAB1F95A22A00B3F242 /* CCSMAStickChart.m in Sources */,
 				7E7B5C801F95A1F200B3F242 /* ta_SAREXT.c in Sources */,
@@ -1297,6 +1353,7 @@
 				7E7B5BF91F95A1F100B3F242 /* ta_ACOS.c in Sources */,
 				7E7B5C591F95A1F200B3F242 /* ta_LINEARREG.c in Sources */,
 				7E7B5C931F95A1F200B3F242 /* ta_TYPPRICE.c in Sources */,
+				7E19CD841F99D55B00ABDDF9 /* FCSlipCandleStickChartViewController.m in Sources */,
 				7E7B5C3A1F95A1F200B3F242 /* ta_CDLSEPARATINGLINES.c in Sources */,
 				7E7B5BFF1F95A1F100B3F242 /* ta_APO.c in Sources */,
 				7E7B5C781F95A1F200B3F242 /* ta_PPO.c in Sources */,
@@ -1337,7 +1394,9 @@
 				7E7B5C291F95A1F100B3F242 /* ta_CDLIDENTICAL3CROWS.c in Sources */,
 				7E7B5CB21F95A22A00B3F242 /* CCSSlipStickChart.m in Sources */,
 				7E7B5C7C1F95A1F200B3F242 /* ta_ROCR.c in Sources */,
+				7E19CD8D1F99D66C00ABDDF9 /* FCSlipLineChartViewController.m in Sources */,
 				7E7B5C001F95A1F100B3F242 /* ta_AROON.c in Sources */,
+				7E19CD781F99D27400ABDDF9 /* FCBandAreaChartViewController.m in Sources */,
 				7E7B5C2E1F95A1F200B3F242 /* ta_CDLLADDERBOTTOM.c in Sources */,
 				7E7B5C411F95A1F200B3F242 /* ta_CDLTASUKIGAP.c in Sources */,
 				7E7B5C341F95A1F200B3F242 /* ta_CDLMORNINGDOJISTAR.c in Sources */,
@@ -1371,6 +1430,7 @@
 				7E7B5C521F95A1F200B3F242 /* ta_HT_DCPERIOD.c in Sources */,
 				7E7B5C811F95A1F200B3F242 /* ta_SIN.c in Sources */,
 				7E7B5CBA1F95A22A00B3F242 /* CCSTitleValues.m in Sources */,
+				7E19CD751F99CF6900ABDDF9 /* FCStackedAreaChartViewController.m in Sources */,
 				7E7B5C6C1F95A1F200B3F242 /* ta_MININDEX.c in Sources */,
 				7E7B5C871F95A1F200B3F242 /* ta_STOCHF.c in Sources */,
 				7E7B5C021F95A1F100B3F242 /* ta_ASIN.c in Sources */,
