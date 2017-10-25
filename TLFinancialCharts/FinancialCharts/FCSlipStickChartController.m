@@ -136,6 +136,7 @@
     stickchart.maxValue = 150000;
     stickchart.minValue = 0;
     stickchart.maxSticksNum = 8;
+//    stickchart.displayNumber = 16;
     //stickchart.displayCrossXOnTouch = NO;
     //stickchart.displayCrossYOnTouch = NO;
     stickchart.latitudeNum = 2;
